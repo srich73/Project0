@@ -2,39 +2,45 @@
 <html lang="en">
     <head>
         <title>Advanced Search</title>
+        <link rel ="stylesheet" href="styles.css">
     </head>
     <body>
-        <form action="https://www.google.com/advanced_search">
-            <!-- <input type="text" name="q">
-            <input type="submit" value="Advanced Search"> -->
-        </form>
-        <a href = "index.html">Google Search</a>
-        <a href = "image_search.html">Image Search</a>
-
-        <div id="searchParameters">
-            <h3>Find Pages with...</h3>
-            <p>all these words:</p>
-            <form action="">
-                <input type="text" name="as_q">
-            </form>
-            <p>this exact word or phrase:</p>
-            <form action="">
-                <input type="text" name="as_epq">
-            </form>
-            <p>any of these words:</p>
-            <form action="">
-                <input type="text" name="as_oq">
-            </form>
-            <p>none of these words:</p>
-            <form action="">
-                <input type="text" name="as_eq">
-            </form>
-            <p>numbers ranging from:</p>
-            <form action="">
-                <input type="text" name="as_nlo">
-                <p>to</p>
-                <input type="text" name="as_nhi">
+        <div class="links">
+            <a href = "image_search.html">Image Search</a>
+            <a href = "index.html">Google Search</a>
+        </div>
+        <h1 class="titleA">Advanced Search</h1>
+        <hr>
+        <div class="search">
+            <form action="https://google.com/search">
+                <h3>Find Pages with...</h3>
+                <div class="condition">
+                    <p class="words">all these words:</p>
+                <input class="inputs" type="text" name="as_q">
+                </div>
+                <div class="condition">
+                    <p class="words">this exact word or phrase:</p>
+                    <input class="inputs" type="text" name="as_epq">
+                </div>
+                <div class="condition">
+                    <p class="words">any of these words:</p>
+                    <input class="inputs" type="text" name="as_oq">
+                </div>
+                <div class="condition">
+                    <p class="words">none of these words:</p>
+                    <input class="inputs" type="text" name="as_eq">
+                </div>
+                <div class="condition">
+                    <p class="words">numbers ranging from:</p>
+                    <input style="width: 45%;" class="inputs" type="text" name="as_nlo">
+                    <p>to</p>
+                    <input style="width: 45%;" class="inputs" type="text" name="as_nhi">
+                </div>
+                <div class="buttons">
+                    <input id="advancedButton" type="submit" value="Advanced Search">
+                </div>   
             </form>
         </div>
+        
     </body>
 </html>
