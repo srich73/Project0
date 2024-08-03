@@ -11,14 +11,27 @@ a {
 .title{
     display: flex;
     justify-content: center;
-    font-size: 50px;
-    color: rgb(212, 64, 64);
-
+    font-size: 75px;
+    /* margin: 10px; */
 }
 
 .titleA{
     font-size: 25px;
     color: rgb(212, 64, 64);
+}
+
+.titleB{
+    display: flex;
+    justify-content: center;
+    font-size: 20px;
+    color: rgb(60, 60, 216);
+    margin-top: 40px;
+}
+
+#logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 .search{
     width: 100%;
@@ -30,10 +43,10 @@ a {
     display: flex;
     flex-direction: row;
     margin: 80px auto;
-    margin-top: 20px;
+    margin-top: -50px;
     margin-bottom: auto;
     height: 30px;
-    width: 300px;
+    width: 500px;
     border-radius: 20px;
     border: 1px #555252 solid;  
 }
@@ -68,4 +81,23 @@ a {
     border-radius: 2px;
     padding: 10px;
 
+}
+
+#g1{
+    color: rgb(60, 60, 216);
+}
+#o1{
+    color: rgb(212, 64, 64);
+}
+#o2{
+    color:rgb(250, 200, 72);
+}
+#g2{
+    color: rgb(60, 60, 216);
+}
+#l1{
+    color: rgb(28, 156, 28);
+}
+#e1{
+    color: rgb(212, 64, 64);
 }
